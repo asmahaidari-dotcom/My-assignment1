@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    text-align: left;
+} 
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(216, 158, 22);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+    text-align: center;       /* اضافه شد */
+}
+
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    display: block; 
+    text-align: center; 
+}
+
+.navbar a:hover{
+    background-color: rgb(205, 210, 213);
+}
+
+.navbar li{
+    float: none;              /* تغییر */
+    display: inline-block;    /* اضافه شد */
+} 
+body {
+  background-color: rgb(11, 84, 118);
+  margin: 0;
+  /* font-family: Arial, sans-serif; */
+}
+
+main {
+  background-color: rgba(59, 122, 147, 0.816);
+  width: 100%;
+  margin: 30px auto;
+  padding: 30px;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+label,
+a,
+figcaption,
+td,
+th {
+  color: rgb(255, 255, 255);
+}
+a {
+  color: rgb(255, 255, 255);
+}
